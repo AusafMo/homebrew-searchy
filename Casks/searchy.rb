@@ -17,6 +17,11 @@ cask "searchy" do
 
   app "searchy.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/searchy.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/searchy/",
   ]
