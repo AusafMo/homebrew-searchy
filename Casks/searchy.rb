@@ -1,6 +1,6 @@
 cask "searchy" do
   version "4.0"
-  sha256 "fcf26c0ce035f3bb5baca70d84b5a202dd0921e0d22cdf8d4d085a3863bc722e"
+  sha256 "94f4d49352e2a65c8f8527378a4f9373458b68b53a2bf6b71c3933853900ba92"
 
   url "https://github.com/AusafMo/searchy/releases/download/v#{version}/Searchy-v#{version}.dmg"
   name "Searchy"
@@ -13,7 +13,7 @@ cask "searchy" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :sonoma"
 
   app "searchy.app"
 
