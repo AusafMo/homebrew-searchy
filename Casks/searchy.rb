@@ -2,7 +2,7 @@ cask "searchy" do
   version "4.0"
   sha256 "fcf26c0ce035f3bb5baca70d84b5a202dd0921e0d22cdf8d4d085a3863bc722e"
 
-  url "https://github.com/AusafMo/searchy/releases/download/v#{version}/Searchy.dmg"
+  url "https://github.com/AusafMo/searchy/releases/download/v#{version}/Searchy-v#{version}.dmg"
   name "Searchy"
   desc "Hybrid image search tool for macOS using CLIP and OCR"
   homepage "https://ausafmo.com/searchy.html"
