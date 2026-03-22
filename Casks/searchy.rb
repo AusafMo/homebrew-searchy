@@ -17,6 +17,8 @@ cask "searchy" do
 
   app "searchy.app"
 
+  uninstall quit: "ausaf.searchy"
+
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/searchy.app"]
