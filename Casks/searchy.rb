@@ -26,6 +26,8 @@ cask "searchy" do
 
   zap trash: [
     "~/Library/Application Support/searchy/",
+    "~/Library/Preferences/ausaf.searchy.plist",
+    "~/Library/Preferences/MdAsf.searchy.plist",
   ]
 
   caveats <<~EOS
