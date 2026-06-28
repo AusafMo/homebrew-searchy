@@ -1,6 +1,6 @@
 cask "searchy" do
-  version "4.3"
-  sha256 "92a41b835399a77baf9de47fe1f85e769176e8a86e182d8ee5215ca718604bb4"
+  version "4.3.1"
+  sha256 "db8d7f3f06f8d21ae293e790cf57d15bfd93f63d3744c2d7527bbeaaa991496c"
 
   url "https://github.com/AusafMo/searchy/releases/download/v#{version}/Searchy-v#{version}.dmg",
       verified: "github.com/AusafMo/searchy/"
